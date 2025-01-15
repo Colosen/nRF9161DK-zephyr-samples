@@ -11,7 +11,7 @@ sample:
 tests:
   sample.sensor.dht:
     build_only: true
-    platform_allow: nrf52dk/nrf52832
+    platform_allow: nrf9161dk/nrf9161
     integration_platforms:
-      - nrf52dk/nrf52832
+      - nrf9161dk/nrf9161
     tags: sensors
